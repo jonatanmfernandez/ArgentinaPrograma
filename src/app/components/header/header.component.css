@@ -1,0 +1,64 @@
+.banner {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2964a7;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    height: 40px;
+    position: relative;
+  }
+
+  button {
+    border-radius: 10px;
+    background-color: #21A957;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: 2px;
+    border-color:#343534 ;
+    margin-left: auto;
+  }
+  
+button:hover {
+  border-radius: 10px;
+  border: 2px solid;
+  border-color:#21A957 ;
+  background-color: #ffffff; 
+  cursor: pointer;
+  color:#21A957
+  
+}
+
+.background-banner{
+    background-size: 400px 400px;
+    background-color: #c4c4c4;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+  
+  }
+  .background-perfil{
+    background-size: 400px 400px;
+    background-color: rgb(244, 247, 255);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+  }
+
+  .circular-image {
+    position: relative;
+  }
+  
+  .circular-image img {
+    position: absolute;
+    top: -80px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 25px;
+    border-radius: 50%;
+    width: 12%;
+    height: auto;
+  }
+  
+
